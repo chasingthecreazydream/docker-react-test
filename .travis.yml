@@ -2,7 +2,7 @@ language: generic
 sudo: required
 services:
   - docker
-git a
+
 before_install:
   - docker build -t coolasshonky/docker-react-test -f Dockerfile.dev .
 
